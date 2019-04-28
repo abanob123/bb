@@ -1,0 +1,33 @@
+interval: false;
+interval: false;
+
+.wrapper {
+    text-align: center;
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+}
+
+/* Put your custom styles here */
+.wrapper {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.abanob {
+    bg-color: red;
+}
+
+car {
+}
+
+#headtext {
+    font-size: ;
+}
+
+#headtext {
+    text-decoration-color: black;;
+}

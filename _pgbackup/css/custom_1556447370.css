@@ -1,0 +1,33 @@
+interval: false;
+interval: false;
+
+.wrapper {
+    height: 100px;
+    width: 400px;
+    position: relative;
+    left: 181px;
+}
+
+position: absolute;
+top: 50%;
+
+.button {
+    position: absolute;
+    top: 50%;
+}
+
+/* Put your custom styles here */
+.abanob {
+    bg-color: red;
+}
+
+car {
+}
+
+#headtext {
+    font-size: ;
+}
+
+#headtext {
+    text-decoration-color: black;
+}
