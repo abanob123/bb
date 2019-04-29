@@ -16,9 +16,9 @@ Version: 1.0
 }
 
 #header-1 .main-nav {
-    background-color: #193441;
     border: 0;
     height: 80px;
+    background-color: rgba(42, 42, 42, 0.82);
 }
 
 #header-1 .main-nav .navbar-toggle {
@@ -43,15 +43,19 @@ Version: 1.0
     background-color: #fff;
 }
 
-#header-1 .main-nav .nav {
-    margin-top: 12px;
+@media (min-width:768px) {
+    #header-1 .main-nav .nav {
+        margin-top: 12px;
+        padding-right: 0px;
+        min-width: 1;
+    }
 }
 
 #header-1 .main-nav .navbar-nav > li a {
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
+    font-family: cairo;
+    font-weight: 600;
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 18px;
     color: #fff;
     color: rgba(255, 255, 255, 0.8);
 }
@@ -125,6 +129,7 @@ Version: 1.0
 #header-1 .brand-img {
     max-width: 150px;
     padding: 20px 0;
+    background-image: url('logo%20png.png');
 }
 
 .headroom {
@@ -652,13 +657,9 @@ Version: 1.0
 /*	PROMO BLOCK 3
 /*----------------------------------------------------*/
 .promo-3 {
-    background: url("../images/star-sky.jpg") center top no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    width: 100%;
+    background-image: url('../images/%D8%AD%D9%85%D9%84%D8%A9%20_%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9%20%D9%85%D8%B5%D8%B1%D9%8A%D9%87%20201%20_.jpg');
     background-size: cover;
-    background-attachment: fixed;
-    padding: 140px 0;
 }
 
 .promo-3 h1 {
@@ -1638,6 +1639,8 @@ Version: 1.0
     -moz-border-radius: 4px;
     -o-border-radius: 4px;
     -ms-border-radius: 4px;
+    animation-duration: 2s;
+    animation-name: fadeIn;
 }
 
 .content-3-5 .feature-box:hover {
@@ -1661,14 +1664,20 @@ Version: 1.0
 }
 
 .content-3-5 .feature-box p {
-    line-height: 25px;
+    line-height: 35px;
     color: #ffffff;
-    opacity: 0.5;
+    font-size: 20PX;
+    text-align: center;
+    direction: rtl;
+    margin-top: 2px;
+    width: 211px;
 }
 
 .content-3-5 .feature-box h3 {
-    padding: 15px 0px 0px;
+    padding: 0px 0px 0px;
     color: #ffffff;
+    line-height: 35PX;
+    font-size: 32PX;
 }
 
 .content-3-5 .feature-box,
@@ -1680,6 +1689,9 @@ Version: 1.0
     -webkit-transition: all 0.4s ease-in 0s;
     -o-transition: all 0.4s ease-in 0s;
     -ms-transition: all 0.4s ease-in 0s;
+    width: 262.5px;
+    height: 300px;
+    box-shadow: 4px 4px 12px;
 }
 
 /*	CONTENT BLOCK 3-5 MEDIA QUERIES
@@ -1995,7 +2007,7 @@ Version: 1.0
 *,
 *:after,
 *:before {
-    box-sizing: border-box;
+    right: -;
 }
 
 .grid {
@@ -3132,6 +3144,9 @@ Version: 1.0
 .footer-1-1 .lead,
 .footer-1-1 li {
     color: #ffffff;
+    text-align: right;
+    direction: rtl;
+    font-size: 26px;
 }
 
 .footer-1-1 .brand-img {

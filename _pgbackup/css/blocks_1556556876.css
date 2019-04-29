@@ -1666,17 +1666,18 @@ Version: 1.0
 .content-3-5 .feature-box p {
     line-height: 35px;
     color: #ffffff;
-    font-size: 20PX;
+    font-size: 22PX;
     text-align: center;
     direction: rtl;
+    margin-top: 2px;
     width: 211px;
 }
 
 .content-3-5 .feature-box h3 {
+    padding: 0px 0px 0px;
     color: #ffffff;
     line-height: 35PX;
-    font-size: 30PX;
-    margin-top: 15px;
+    font-size: 32PX;
 }
 
 .content-3-5 .feature-box,
