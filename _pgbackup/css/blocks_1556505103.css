@@ -43,19 +43,15 @@ Version: 1.0
     background-color: #fff;
 }
 
-@media (min-width:768px) {
-    #header-1 .main-nav .nav {
-        margin-top: 12px;
-        padding-right: 0px;
-        min-width: 1;
-    }
+#header-1 .main-nav .nav {
+    margin-top: 12px;
 }
 
 #header-1 .main-nav .navbar-nav > li a {
     font-family: cairo;
     font-weight: 600;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 20px;
     color: #fff;
     color: rgba(255, 255, 255, 0.8);
 }
@@ -657,9 +653,12 @@ Version: 1.0
 /*	PROMO BLOCK 3
 /*----------------------------------------------------*/
 .promo-3 {
-    width: 100%;
-    background-image: url('../images/%D8%AD%D9%85%D9%84%D8%A9%20_%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9%20%D9%85%D8%B5%D8%B1%D9%8A%D9%87%20201%20_.jpg');
+    background: url("../images/star-sky.jpg") center top no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .promo-3 h1 {
@@ -1639,8 +1638,6 @@ Version: 1.0
     -moz-border-radius: 4px;
     -o-border-radius: 4px;
     -ms-border-radius: 4px;
-    animation-duration: 2s;
-    animation-name: fadeIn;
 }
 
 .content-3-5 .feature-box:hover {
@@ -1691,7 +1688,6 @@ Version: 1.0
     -ms-transition: all 0.4s ease-in 0s;
     width: 262.5px;
     height: 300px;
-    box-shadow: 4px 4px 12px;
 }
 
 /*	CONTENT BLOCK 3-5 MEDIA QUERIES

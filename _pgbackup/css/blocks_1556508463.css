@@ -47,7 +47,6 @@ Version: 1.0
     #header-1 .main-nav .nav {
         margin-top: 12px;
         padding-right: 0px;
-        min-width: 1;
     }
 }
 
@@ -1639,8 +1638,6 @@ Version: 1.0
     -moz-border-radius: 4px;
     -o-border-radius: 4px;
     -ms-border-radius: 4px;
-    animation-duration: 2s;
-    animation-name: fadeIn;
 }
 
 .content-3-5 .feature-box:hover {

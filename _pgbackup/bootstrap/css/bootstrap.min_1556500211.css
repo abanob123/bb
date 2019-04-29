@@ -1388,6 +1388,7 @@ th {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     direction: rtl;
+    text-shadow: 1px 0px 8px #ffffff;
 }
 
 :after,
@@ -5426,13 +5427,12 @@ textarea.input-group-sm>.input-group-btn>.btn {
     }
 }
 
-.navbar-nav {
-    float: left;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
 @media (min-width:768px){
+    .navbar-nav {
+        float: left;
+        margin: 0;
+    }
+
     .navbar-nav>li {
         float: left;
     }
@@ -5586,15 +5586,13 @@ textarea.input-group-sm>.input-group-btn>.btn {
         float: left!important;
     }
 
+    .navbar-right {
+        float: right!important;
+        margin-right: -15px;
+    }
+
     .navbar-right~.navbar-right {
         margin-right: 0;
-    }
-}
-
-@media (min-width:768px) {
-    .navbar-right {
-        float: right !important;
-        margin-right: -15px;
     }
 }
 

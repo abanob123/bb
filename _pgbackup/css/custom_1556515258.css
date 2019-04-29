@@ -43,9 +43,3 @@ car {
 #headtext {
     text-decoration-color: black;
 }
-
-#1a {
-    position: relative;
-    animation-name: fadeIn;
-    animation-duration: 2s;
-}
