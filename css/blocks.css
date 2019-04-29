@@ -656,6 +656,13 @@ Version: 1.0
 
 /*	PROMO BLOCK 3
 /*----------------------------------------------------*/
+animation-name:fadeIn {
+}
+
+animation-name:fadeIn {
+    animation-duration: .2s;
+}
+
 .promo-3 {
     width: 100%;
     background-image: url('../images/%D8%AD%D9%85%D9%84%D8%A9%20_%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9%20%D9%85%D8%B5%D8%B1%D9%8A%D9%87%20201%20_.jpg');

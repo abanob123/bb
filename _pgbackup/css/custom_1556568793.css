@@ -49,8 +49,3 @@ car {
     animation-name: fadeIn;
     animation-duration: 2s;
 }
-
-#img1 {
-    animation-name: fadeIn;
-    animation-duration: .3s;
-}
